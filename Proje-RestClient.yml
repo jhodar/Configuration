@@ -7,11 +7,5 @@ spring:
     url: jdbc:mysql://localhost:3306/bdEjemplo
     username: root
     password: mysql
-jpa:
-  hibernate:
-    ddl-auto: update
-  show-sql: true
-  properties:
-    hibernate:
-      format_sql: true
+
 
