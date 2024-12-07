@@ -1,6 +1,11 @@
 server:
   port: 9002
 
+
+
+producto:
+  service:
+    url: http://localhost:9007/productos  
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
